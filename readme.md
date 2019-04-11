@@ -2,7 +2,8 @@
 
 > A js function that integrates with Liferay theme gulp build task to compress /build css &amp; gzip
 
--   Uses [clean css](https://www.npmjs.com/package/clean-css) to minimize css & gzip to compress
+-   Uses [clean css](https://www.npmjs.com/package/clean-css) to minimize css & gzip to compress in Liferay 7.1 themes
+-   We use this together with Nginx
 -   This is a function that you can add right after your build stage
 -   This is a very rigid package and only minimizes the following files from your theme `/build/css` dir:- font_awesome.css - main.css - clay.css (only gzips doesn't minify because it errs on the local import)
     -   if you would like it to handle more options, open an issue & we will try to make it more flexible for your use case
