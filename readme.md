@@ -34,6 +34,15 @@ liferayThemeTasks.registerTasks({
 });
 ```
 
+-   if you don't want it to run when you are in development, just set `NODE_ENV=development`
+-   the way we do this is running cross env from npm scripts:
+
+```
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development gulp build"
+	},
+```
+
 ## License
 
 [BSD-3-Clause](https://github.com/node-gh/gh/blob/master/LICENSE.txt)
