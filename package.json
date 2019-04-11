@@ -1,29 +1,32 @@
 {
 	"name": "liferay-compress-css",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "A js function that integrates with Liferay theme gulp build task to compress /build css &amp; gzip",
-	"license": "MIT",
+	"license": "BSD-3-Clause",
 	"repository": "protoEvangelion/liferay-compress-css",
 	"author": {
 		"name": "Ryan Garant",
 		"email": "ryantgarant@gmail.com",
-		"url": "rhino.codes"
+		"url": "https://rhino.codes"
 	},
 	"engines": {
 		"node": ">=6"
-	},
-	"scripts": {
-		"test": "xo && ava"
 	},
 	"files": [
 		"index.js"
 	],
 	"keywords": [
-		""
+		"liferay",
+		"gulp",
+		"theme",
+		"compress",
+		"gzip"
 	],
-	"dependencies": {},
-	"devDependencies": {
-		"ava": "^0.25.0",
-		"xo": "^0.21.0"
+	"dependencies": {
+		"ansi-colors": "^3.2.4",
+		"fancy-log": "^1.3.3",
+		"gulp-add-src": "^1.0.0",
+		"gulp-clean-css": "^4.0.0",
+		"gulp-gzip": "^1.4.2"
 	}
 }
