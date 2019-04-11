@@ -1,6 +1,6 @@
 {
 	"name": "liferay-compress-css",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "A js function that integrates with Liferay theme gulp build task to compress /build css &amp; gzip",
 	"license": "BSD-3-Clause",
 	"repository": "protoEvangelion/liferay-compress-css",
